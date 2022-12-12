@@ -44,3 +44,9 @@ console.log(someVariable);
 someVariable = false;
 console.log(typeof (someVariable));
 console.log(someVariable);
+
+someVariable = 15.50;
+console.log(typeof (someVariable));
+console.log(someVariable);
+
+
