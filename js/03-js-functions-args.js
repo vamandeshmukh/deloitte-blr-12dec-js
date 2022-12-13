@@ -1,12 +1,39 @@
 
 
+// const fun = (arg) => {
+//     console.log('fun function called.');
+//     console.log(arg.city);
+// };
+
+// // fun('Sonu');
+// // fun(10);
+// fun({ city: 'Hyderabad', pin: 500001 });
+
+// const fun = (arg) => {
+//     console.log('fun function called.');
+//     console.log(arg + 10);
+// };
+
+// fun(11);
+
+// let num = 10;
+// fun(num);
+
+// -----------------------------------------------------------------
+// In JS, a function can be passed as argument to another function.
+// -----------------------------------------------------------------
+
 const fun = (arg) => {
     console.log('fun function called.');
-    // code to use arg
-    // console.log('Hi ' + arg); // string arg
-    // console.log(++arg); // number arg
-    console.log(arg.city);
+    arg(); // function call 
 };
 
-// fun('Sonu');
-// fun(10);
+const fun2 = () => {
+    console.log('fun2 funtion called.');
+};
+
+fun(fun2);
+
+// fun(() => { console.log('anonymous funtion called.'); });
+
+
