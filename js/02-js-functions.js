@@ -95,3 +95,8 @@ const empData = {
 console.log(empData.phones[1]);
 console.log(empData.address.city);
 
+
+
+
+
+
